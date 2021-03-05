@@ -1,0 +1,31 @@
+{
+  "name": "lapakbot",
+  "version": "1.0.0",
+  "description": "Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jagg26/lapakbot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "John Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jagg26/lapakbot/issues"
+  },
+  "homepage": "https://github.com/Jagg26/lapakbot#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
